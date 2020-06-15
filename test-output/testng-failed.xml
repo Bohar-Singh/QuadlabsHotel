@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Base.Flightcheck"/>
+  </listeners>
+  <test name="Sbt login(failed)">
+    <classes>
+      <class name="modules.sbtLogin">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- modules.sbtLogin -->
+    </classes>
+  </test> <!-- Sbt login(failed) -->
+</suite> <!-- Failed suite [Login] -->
