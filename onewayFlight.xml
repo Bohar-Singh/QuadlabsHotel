@@ -6,7 +6,7 @@
 </listeners>
 <test name="Sbt login" >
     <classes>
-       <class name="modules.owFlightSearch" />
+       <class name="product.Flight.owFlightSearch" />
     </classes>
 </test>
 </suite>

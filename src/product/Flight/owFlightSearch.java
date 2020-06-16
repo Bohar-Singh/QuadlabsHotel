@@ -9,11 +9,11 @@ import utilities.QaDataProvider;
 
 public class owFlightSearch {
 
-	@DataProvider
-	public Object[][] getexceldata() throws Exception {
-
-		return QaDataProvider.getTestdata("Flight", "Oneway");
-	}
+//	@DataProvider
+//	public Object[][] getexceldata() throws Exception {
+//
+//		return QaDataProvider.getTestdata("Flight", "Oneway");
+//	}
 
 	@BeforeTest
 	public static void Before_Test() throws Exception {
@@ -21,10 +21,10 @@ public class owFlightSearch {
 		TestBase.Login();
 	}
 
-	@Test(dataProvider = "getexceldata")
-	public static void flight_Search() {
-
-	}
+	// @Test(dataProvider = "getexceldata")
+//	public static void flight_Search() {
+//
+//	}
 
 	@AfterTest
 	public static void After_Test() {
