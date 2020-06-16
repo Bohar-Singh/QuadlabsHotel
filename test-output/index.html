@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Login" class="navigator-link ">
-                    <span>D:\Webdriverwork\github\midOffice\login.xml</span>
+                    <span>D:\Webdriverwork\github\midOffice\onewayFlight.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Login">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Login" title="modules.sbtLogin" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login" title="modules.owFlightSearch" class="method navigator-link" hash-for-method="flight_Search">flight_Search</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Login -->
@@ -120,14 +120,14 @@
           <div class="suite-Login-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">modules.sbtLogin</span>
+              <span class="class-name">modules.owFlightSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
+                  <a name="flight_Search">
+                  </a> <!-- flight_Search -->
+                  <span class="method-name">flight_Search</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Login -->
         <div panel-name="test-xml-Login" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Webdriverwork\github\midOffice\login.xml</span>
+            <span class="header-content">D:\Webdriverwork\github\midOffice\onewayFlight.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,7 +147,7 @@
   &lt;/listeners&gt;
   &lt;test name=&quot;Sbt login&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;modules.sbtLogin&quot;/&gt;
+      &lt;class name=&quot;modules.owFlightSearch&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Sbt login --&gt;
 &lt;/suite&gt; &lt;!-- Login --&gt;
@@ -189,14 +189,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login')
-data.setCell(0, 2, 'modules.sbtLogin')
-data.setCell(0, 3, 53668);
+data.setCell(0, 1, 'flight_Search')
+data.setCell(0, 2, 'modules.owFlightSearch')
+data.setCell(0, 3, 5);
 window.suiteTableData['Login']= { tableData: data, tableDiv: 'times-div-Login'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-Login">
               </div> <!-- times-div-Login -->
             </div> <!-- times-div -->
@@ -222,11 +222,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">modules.sbtLogin</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">Login</span>
+              <div class="chronological-class-name">modules.owFlightSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Before_Test</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">flight_Search</span>
+                <span class="method-start">18403 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">After_Test</span>
+                <span class="method-start">20927 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
